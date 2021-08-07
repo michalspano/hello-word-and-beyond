@@ -13,7 +13,7 @@ A "Hello, World!" program generally is a computer program that outputs or displa
 
 ## C
 
-```
+```C
 #include <stdio.h>
 
 int main(void)
@@ -23,11 +23,12 @@ int main(void)
 }
 ```
 `$ make hello-world`
+
 `$ ./hello-world`
 
 ## C#
 
-```
+```C#
 using System;
 
 class Pogram
@@ -39,11 +40,12 @@ class Pogram
 }
 ```
 `$ csc hello-world.cs`
+
 `$ mono hello-world.exe`
 
 ## C++
 
-```
+```C++
 #include <iostream>
 
 int main(void)
@@ -53,11 +55,12 @@ int main(void)
 }
 ```
 `$ make hello-world`
+
 `$ ./hello-world`
 
 ## Objective-C
 
-```
+```Objective-C
 #import <Foundation/Foundation.h>
 
 int main(void) 
@@ -71,7 +74,7 @@ int main(void)
 `$ ./hello-world`
 
 ## Perl
-```
+```Perl
 #!usr/bin/perl
 
 use warnings;
@@ -82,9 +85,9 @@ print("Hello world!\n");
 
 ## Shell
 
-```
+```Shell
 echo "Hello world!"
-````
+```
 `$ sh hello-world.sh`
 
 [WIKI]: https://en.wikipedia.org/wiki/"Hello,_World!"_program
