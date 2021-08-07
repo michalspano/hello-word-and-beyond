@@ -4,9 +4,56 @@ A "Hello, World!" program generally is a computer program that outputs or displa
 
 ### This list consists of programs executable from the command line (no IDEs needed)!
 
-1. [Objective-C](#Objective-C)
-2. [Perl](#Perl)
-3. [Shell](#Shell)
+1. [C](#C)
+2. [C#](#C#)
+3. [C++](#C++)
+4. [Objective-C](#Objective-C)
+5. [Perl](#Perl)
+6. [Shell](#Shell)
+
+## C
+
+```
+#include <stdio.h>
+
+int main(void)
+{
+    printf("Hello world!\n");
+    return 0;
+}
+```
+`$ make hello-world`
+`$ ./hello-world`
+
+## C#
+
+```
+using System;
+
+class Pogram
+{
+    static void Main(string[] argv)
+    {
+        Console.WriteLine("Hello world!");    
+    }
+}
+```
+`$ csc hello-world.cs`
+`$ mono hello-world.exe`
+
+## C++
+
+```
+#include <iostream>
+
+int main(void)
+{
+    std::cout << "Hello world\n";
+    return 0;
+}
+```
+`$ make hello-world`
+`$ ./hello-world`
 
 ## Objective-C
 
