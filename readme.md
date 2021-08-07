@@ -22,9 +22,13 @@ int main(void)
     return 0;
 }
 ```
-`$ make hello-world`
+```Bash
+$ make hello-world
+```
 
-`$ ./hello-world`
+```Bash
+$ ./hello-world
+```
 
 ## C#
 
@@ -39,9 +43,13 @@ class Pogram
     }
 }
 ```
-`$ csc hello-world.cs`
+```Bash 
+$ csc hello-world.cs
+```
 
-`$ mono hello-world.exe`
+```Bash 
+$ mono hello-world.exe
+```
 
 ## C++
 
@@ -54,9 +62,13 @@ int main(void)
     return 0;
 }
 ```
-`$ make hello-world`
+```Bash
+$ make hello-world
+```
 
-`$ ./hello-world`
+```Bash
+$ ./hello-world
+```
 
 ## Objective-C
 
@@ -69,9 +81,13 @@ int main(void)
     return 0;
 }
 ```
-`$ clang -framework Foundation hello-world.m -o hello-world`
+```Bash
+$ clang -framework Foundation hello-world.m -o hello-world
+```
 
-`$ ./hello-world`
+```Bash
+$ ./hello-world
+```
 
 ## Perl
 ```Perl
@@ -81,13 +97,17 @@ use warnings;
 
 print("Hello world!\n");
 ```
-`$ perl hello-world.pl`
+```Bash
+$ perl hello-world.pl
+```
 
 ## Shell
 
 ```Shell
 echo "Hello world!"
 ```
-`$ sh hello-world.sh`
+```Bash 
+$ sh hello-world.sh
+```
 
 [WIKI]: https://en.wikipedia.org/wiki/"Hello,_World!"_program
