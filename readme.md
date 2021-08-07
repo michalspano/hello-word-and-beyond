@@ -5,6 +5,7 @@ A "Hello, World!" program generally is a computer program that outputs or displa
 ### This list consists of programs executable from the command line (no IDEs needed)!
 
 1. [Objective-C](#Objective-C)
+2. [Shell](#Shell)
 
 ## Objective-C
 
@@ -20,5 +21,12 @@ int main(void)
 `$ clang -framework Foundation hello-world.m -o hello-world`
 
 `$ ./hello-world`
+
+## Shell
+
+```
+echo "Hello world!"
+````
+`$ sh hello-world.sh`
 
 [WIKI]: https://en.wikipedia.org/wiki/"Hello,_World!"_program
