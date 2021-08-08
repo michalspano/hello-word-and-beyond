@@ -7,9 +7,11 @@ A "Hello, World!" program generally is a computer program that outputs or displa
 1. [C](#C)
 2. [C#](#C#)
 3. [C++](#C++)
-4. [Objective-C](#Objective-C)
-5. [Perl](#Perl)
-6. [Shell](#Shell)
+4. [F#](#F#)
+5. [Objective-C](#Objective-C)
+6. [Perl](#Perl)
+7. [Rust]($Rust)
+8. [Shell](#Shell)
 
 ## C
 
@@ -70,6 +72,25 @@ $ make hello-world
 $ ./hello-world
 ```
 
+## F#
+
+```F#
+open System
+
+[<EntryPoint>]
+let main argv =
+    printfn "Hello world!"
+    0 
+```
+
+```Bash
+$ fsharpc hello-world.fs
+```
+
+```Bash
+$ mono hello-world.exe
+```
+
 ## Objective-C
 
 ```Objective-C
@@ -99,6 +120,21 @@ print("Hello world!\n");
 ```
 ```Bash
 $ perl hello-world.pl
+```
+
+## Rust
+```Rust
+fn main()
+{
+    println!("Hello world!");
+}
+```
+```Bash
+$ rustc hello-world.rs
+```
+
+```Bash
+$  ./hello-world
 ```
 
 ## Shell
