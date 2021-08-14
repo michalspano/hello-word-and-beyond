@@ -4,14 +4,33 @@ A "Hello, World!" program generally is a computer program that outputs or displa
 
 ### This list consists of programs executable from the command line (no IDEs needed)!
 
-1. [C](#C)
-2. [C#](#C#)
-3. [C++](#C++)
-4. [F#](#F#)
-5. [Objective-C](#Objective-C)
-6. [Perl](#Perl)
-7. [Rust]($Rust)
-8. [Shell](#Shell)
+1. [Ada](#Ada)
+2. [C](#C)
+3. [C#](#C#)
+4. [C++](#C++)
+5. [F#](#F#)
+6. [Objective-C](#Objective-C)
+7. [Perl](#Perl)
+8. [Rust]($Rust)
+9. [Shell](#Shell)
+
+## Ada
+
+```Ada
+with Text_IO; use Text_IO;
+
+procedure hello is
+begin
+   Put_Line("Hello world!");
+end hello;
+```
+```Bash
+$ gnatmake hello-world.adb
+```
+
+```Bash
+$ ./hello-world
+```
 
 ## C
 
