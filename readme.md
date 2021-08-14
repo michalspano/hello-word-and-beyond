@@ -12,8 +12,9 @@ A "Hello, World!" program generally is a computer program that outputs or displa
 6. [Haskell](#Haskell)
 7. [Objective-C](#Objective-C)
 8. [Perl](#Perl)
-9. [Rust]($Rust)
-10. [Shell](#Shell)
+9. [Ruby](#Ruby)
+10. [Rust]($Rust)
+11. [Shell](#Shell)
 
 ## Ada
 
@@ -155,6 +156,14 @@ print("Hello world!\n");
 ```
 ```Bash
 $ perl hello-world.pl
+```
+
+## Ruby
+```Ruby
+puts "Hello world!"
+```
+```Bash
+$ ruby hello-world.rb
 ```
 
 ## Rust
