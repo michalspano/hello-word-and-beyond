@@ -9,10 +9,11 @@ A "Hello, World!" program generally is a computer program that outputs or displa
 3. [C#](#C#)
 4. [C++](#C++)
 5. [F#](#F#)
-6. [Objective-C](#Objective-C)
-7. [Perl](#Perl)
-8. [Rust]($Rust)
-9. [Shell](#Shell)
+6. [Haskell](#Haskell)
+7. [Objective-C](#Objective-C)
+8. [Perl](#Perl)
+9. [Rust]($Rust)
+10. [Shell](#Shell)
 
 ## Ada
 
@@ -108,6 +109,21 @@ $ fsharpc hello-world.fs
 
 ```Bash
 $ mono hello-world.exe
+```
+
+## Haskell
+```Haskell
+main :: IO ()
+main = do
+    putStrLn "Hello world!"
+    return ()
+```
+```Bash
+$ ghc hello-world.hs
+```
+
+```Bash
+./hello-world
 ```
 
 ## Objective-C
