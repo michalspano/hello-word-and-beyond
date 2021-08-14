@@ -1,5 +1,3 @@
-module hello-world where
-
 main :: IO ()
 main = do
 {
