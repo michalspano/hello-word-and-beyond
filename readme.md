@@ -15,6 +15,7 @@ A "Hello, World!" program generally is a computer program that outputs or displa
 9. [Ruby](#Ruby)
 10. [Rust]($Rust)
 11. [Shell](#Shell)
+12. [Visual Basic](#Visual-Basic)
 
 ## Ada
 
@@ -183,11 +184,29 @@ $  ./hello-world
 
 ## Shell
 
-```Shell
+```sh
 echo "Hello world!"
 ```
 ```Bash 
 $ sh hello-world.sh
+```
+
+## Visual Basic
+```vb
+Imports System
+
+Module HelloWorld
+    Sub Main()
+        Console.WriteLine("Hello world!")
+    End Sub 
+End Module
+```
+```Bash
+$ vbc hello-world.vb
+```
+
+```Bash
+$ mono hello-world.exe
 ```
 
 [WIKI]: https://en.wikipedia.org/wiki/"Hello,_World!"_program
