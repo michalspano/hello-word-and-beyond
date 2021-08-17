@@ -9,13 +9,19 @@ A "Hello, World!" program generally is a computer program that outputs or displa
 3. [C#](#C#)
 4. [C++](#C++)
 5. [F#](#F#)
-6. [Haskell](#Haskell)
-7. [Objective-C](#Objective-C)
-8. [Perl](#Perl)
-9. [Ruby](#Ruby)
-10. [Rust]($Rust)
-11. [Shell](#Shell)
-12. [Visual Basic](#Visual-Basic)
+6. [Go](#Go)
+7. [Haskell](#Haskell)
+8. [JavaScript](#JavaScript)
+9. [Kotlin](#Kotlin)
+10. [Objective-C](#Objective-C)
+11. [Perl](#Perl)
+12. [Python](#Python)
+13. [R](#R)
+14. [Ruby](#Ruby)
+15. [Rust]($Rust)
+16. [Shell](#Shell)
+17. [Swift](#Swift)
+18. [Visual Basic](#Visual-Basic)
 
 ## Ada
 
@@ -113,7 +119,25 @@ $ fsharpc hello-world.fs
 $ mono hello-world.exe
 ```
 
+## Go
+
+```Go
+package main
+
+import "fmt"
+
+func main()
+{
+	fmt.Println("Hello world!")
+}
+```
+
+```Bash
+$ go run hello-world.go
+```
+
 ## Haskell
+
 ```Haskell
 main :: IO ()
 main = do
@@ -128,6 +152,49 @@ $ ghc hello-world.hs
 ./hello-world
 ```
 
+## Java
+
+```Java
+public class Main 
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Hello world!");
+    }
+}
+```
+```Bash
+$ javac hello-world.java
+```
+
+```Bash
+$ java hello-world
+```
+## JavaScript
+
+```js
+console.log("Hello world!");
+```
+
+```Bash
+$ node hello-world.js
+```
+
+## Kotlin
+
+```Kotlin
+fun main()
+{
+    println("Hello world!")
+}
+```
+```Bash
+$ kotlinc hello-world.kt -include-runtime -d hello-world.jar
+```
+
+```Bash
+$ java -jar hello-world.jar
+```
 ## Objective-C
 
 ```Objective-C
@@ -148,6 +215,7 @@ $ ./hello-world
 ```
 
 ## Perl
+
 ```Perl
 #!usr/bin/perl
 
@@ -159,7 +227,29 @@ print("Hello world!\n");
 $ perl hello-world.pl
 ```
 
+## Python
+
+```Python
+print('Hello world!')
+```
+```Bash
+$ python3 hello-world.py
+```
+
+## R
+
+```R
+print("Hello world!", quote=False)
+```
+```Bash
+$ chmod +x hello-world.r
+```
+
+```Bash
+./hello-world.r
+```
 ## Ruby
+
 ```Ruby
 puts "Hello world!"
 ```
@@ -168,6 +258,7 @@ $ ruby hello-world.rb
 ```
 
 ## Rust
+
 ```Rust
 fn main()
 {
@@ -191,7 +282,17 @@ echo "Hello world!"
 $ sh hello-world.sh
 ```
 
+## Swift
+
+```Swift
+print("Hello world!")
+```
+```Bash
+$ swift hello-world.swift
+```
+
 ## Visual Basic
+
 ```vb
 Imports System
 
