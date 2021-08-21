@@ -8,20 +8,21 @@ A "Hello, World!" program generally is a computer program that outputs or displa
 2. [C](#C)
 3. [C#](#C#)
 4. [C++](#C++)
-5. [F#](#F#)
-6. [Go](#Go)
-7. [Haskell](#Haskell)
-8. [JavaScript](#JavaScript)
-9. [Kotlin](#Kotlin)
-10. [Objective-C](#Objective-C)
-11. [Perl](#Perl)
-12. [Python](#Python)
-13. [R](#R)
-14. [Ruby](#Ruby)
-15. [Rust]($Rust)
-16. [Shell](#Shell)
-17. [Swift](#Swift)
-18. [Visual Basic](#Visual-Basic)
+5. [Dart](#Dart)
+6. [F#](#F#)
+7. [Go](#Go)
+8. [Haskell](#Haskell)
+9. [JavaScript](#JavaScript)
+10. [Kotlin](#Kotlin)
+11. [Objective-C](#Objective-C)
+12. [Perl](#Perl)
+13. [Python](#Python)
+14. [R](#R)
+15. [Ruby](#Ruby)
+16. [Rust]($Rust)
+17. [Shell](#Shell)
+18. [Swift](#Swift)
+19. [Visual Basic](#Visual-Basic)
 
 ## Ada
 
@@ -98,6 +99,19 @@ $ g++ -o hello-world hello-world.cpp
 
 ```Bash
 $ ./hello-world
+```
+
+## Dart
+
+```Dart
+void main()
+{
+    print("Hello world!");
+}
+```
+
+```Bash
+$ dart hello-world.dart
 ```
 
 ## F#
