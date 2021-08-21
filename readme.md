@@ -93,7 +93,7 @@ int main(void)
 }
 ```
 ```Bash
-$ make hello-world
+$ g++ -o hello-world hello-world.cpp
 ```
 
 ```Bash
