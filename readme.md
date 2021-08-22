@@ -20,9 +20,10 @@ A "Hello, World!" program generally is a computer program that outputs or displa
 14. [R](#R)
 15. [Ruby](#Ruby)
 16. [Rust]($Rust)
-17. [Shell](#Shell)
-18. [Swift](#Swift)
-19. [Visual Basic](#Visual-Basic)
+17. [Scala]($Scala)
+18. [Shell](#Shell)
+19. [Swift](#Swift)
+20. [Visual Basic](#Visual-Basic)
 
 ## Ada
 
@@ -285,6 +286,19 @@ $ rustc hello-world.rs
 
 ```Bash
 $  ./hello-world
+```
+
+## Scala
+```Scala
+object Main {
+  def main(args: Array[String]): Unit = {
+    println("Hello world!")
+  }
+}
+```
+
+```Bash
+scala hello-world.scala
 ```
 
 ## Shell
